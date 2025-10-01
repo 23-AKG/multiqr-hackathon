@@ -1,0 +1,5 @@
+path: dataset
+train: images/train_images
+val: images/train_images
+names:
+  0: qrcode
