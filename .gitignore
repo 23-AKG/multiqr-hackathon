@@ -19,9 +19,8 @@ __pycache__/
 
 # YOLO training outputs
 runs/
-
-yolov8n.pt         # ignore auto-downloaded YOLO weights (we include only src/models/best.pt)
-yolov8s.pt
+*.pt
+yolov8*.pt
 
 # Ignore all datasets
 dataset/
