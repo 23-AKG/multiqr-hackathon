@@ -25,6 +25,7 @@ yolov8s.pt
 
 # Ignore all datasets
 dataset/
+dataset.yaml
 
 # Outputs - keep only the required submissions
 outputs/*.json
@@ -33,3 +34,7 @@ outputs/*.json
 
 # Allow demo images (for testing pipeline quickly)
 !data/demo_images/**
+
+
+
+.gitattributes
